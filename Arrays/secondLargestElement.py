@@ -5,13 +5,13 @@ def findSecondLargestElement(arr):
         secondLargest = -1
         for i in range(n):
             if(arr[i] > largest):
+                secondlargest = largest
                 largest = arr[i]
-        for j in range(n):
-            if(arr[j]>secondLargest and arr[j]!=largest):
-                secondLargest = arr[j]
-        return secondLargest
+            elif(arr[i] > secondlargest and arr[i]!=largest):
+                secondlargest = arr[i]
+        return secondlargest
     except Exception as e:
         print(e)
         return
     
-print(findSecondLargestElement([7,12,14,78,99]))
+print(findSecondLargestElement([105,7,12,14,78,99]))
