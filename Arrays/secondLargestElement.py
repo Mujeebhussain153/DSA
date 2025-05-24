@@ -2,7 +2,7 @@ def findSecondLargestElement(arr):
     try:
         n = len(arr)
         largest = -1
-        secondLargest = -1
+        secondlargest = -1
         for i in range(n):
             if(arr[i] > largest):
                 secondlargest = largest
