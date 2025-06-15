@@ -1,3 +1,4 @@
+# Function to calculate Maximum sub array sum when fixed length of subarray is explicitly provided
 def maximumSubarraySum(arr, k):
     try:
         n = len(arr)
