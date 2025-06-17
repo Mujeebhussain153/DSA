@@ -10,6 +10,7 @@ def mergeSort(arr):
         print(e)
         return
 
+# Merging the Elements based on the max and min of the elements
 def merge(left, right):
     try:
         merged = []
